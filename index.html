@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Playfair+Display:ital,wght@0,400;0,500;0,700;1,400;1,500;1,700&display=swap" rel="stylesheet">
+    
+    <link rel="stylesheet" href="/style.css">
+
+    <title>Proyecto CV</title>
+</head>
+
+<body>
+    <section id="main-section">
+        <div id="main-info">
+            <img id="pic" src="https://i.postimg.cc/x1kW1m42/piccv-1.jpg" alt="">
+            
+            <div id="name">
+                <h1>Felicia Watson</h1>
+                <p>Web Developer</p>
+                <p style="font-size: 20px;">felicia.watson@example.com</p>
+                <p style="font-size: 20px;">(270) 252-5476</p>
+                
+            </div>
+        </div>
+        
+        <div id="additional-info">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Phasellus dapibus vel magna a rhoncus. Nullam placerat eu neque at iaculis. Aliquam a purus quis est vestibulum molestie vel vel nibh. Praesent vel blandit dui. Proin sed pretium nulla. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus.</p>
+        </div>
+
+        <div>
+            <nav>
+                <a href="#experience-section">Experience</a>
+                <a href="#education-section">Education</a>
+                <a href="#skills-section">Skills</a>
+                <a href="#contact-section">Contact Me</a>
+            </nav>
+        </div>
+    </section>
+
+    <section id="experience-section">
+        <h3 id="experience" class="title">Work Experience</h3>
+
+        <div class="information">
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <p onclick="showInfo(experienceinfo, moreexp)" id="more-experience">READ MORE +</p>
+            <div id="experience-info" style="display: none;">
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="education-section">
+        <h3 id="education" class="title" style="order: 2">Education</h3>
+
+        <div class="information">
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <p onclick="showInfo(educationinfo, moreedu)" id="more-education">READ MORE +</p>
+            <div id="education-info" style="display: none;">
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="skills-section">
+        <h3 id="skills" class="title">Skills</h3>
+
+        <div class="information">
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+            <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            
+            <p onclick="showInfo(skillsinfo, moreski)" id="more-skills">READ MORE +</p>
+            <div id="skills-info" style="display: none;">
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+                <h4 class="sub-title">Lorem Ipsum — dolor sit amet.</h4>
+                <p class="description">Integer vitae mattis erat. Sed sapien tellus, condimentum quis ultrices vitae, efficitur at metus. Vestibulum efficitur suscipit nisl quis bibendum. Quisque eget tempus metus, id faucibus ipsum. Praesent eros ex, blandit in dapibus ac, commodo a lacus.</p>
+            </div>
+        </div>
+    </section>
+
+    <section id="contact-section">
+        <h3 id="contact" style="order: 2" class="title">Contact me</h3>
+
+        <div class="information" id="contact-info">
+            <form action="">
+                <label for="name">Name:</label>
+                <input type="text" name="name" id="name">
+                <br>
+                <label for="email">E-mail:</label>
+                <input type="email" name="email" id="email" required>
+                <br>
+                <label for="message">Message:</label>
+                <input type="textarea" name="message" id="message" style="height: 100px;">
+                <br>
+                <br>
+                <input type="submit" value="Send" id="contact-button">
+            </form>
+        </div>
+    </section>
+
+    <script src="/index.js"></script>
+</body>
+</html>
